@@ -9,18 +9,13 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher
 			this.themes = [
 				{
 					name: "light",
-					label: ("Frappe Light"),
+					label: ("Wtech Light"),
 					info: ("Light Theme"),
 				},
 				{
 					name: "dark",
-					label: "Timeless Night",
+					label: "Wtech Night",
 					info: "Dark Theme",
-				},
-				{
-					name: "wtech_theme",
-					label: "The Wtech Theme",
-					info: "The custom theme by wtech",
 				},
 				{
 					name: "automatic",

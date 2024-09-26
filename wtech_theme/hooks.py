@@ -174,10 +174,9 @@ app_include_js = "/assets/wtech_theme/js/wtech_theme.js"
 # Overriding Methods
 # ------------------------------
 #
-override_whitelisted_methods = {
-    # "frappe.desk.doctype.event.event.get_events": "wtech_theme.event.get_events"
-    "frappe.core.doctype.user.user.switch_theme": "wtech_theme.overrides.switch_theme.switch_theme"
-}
+# override_whitelisted_methods = {
+# "frappe.desk.doctype.event.event.get_events": "wtech_theme.event.get_events"
+# }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
