@@ -5,6 +5,13 @@ app_description = "wtech custom theme"
 app_email = "warqatech@gmail.com"
 app_license = "mit"
 
+brand_html = "WtechERP"
+
+website_context = {
+    "favicon": "/assets/wtech_theme/img/favicon.png",
+    "splash_image": "/assets/wtech_theme/img/favicon.png",
+}
+
 # Apps
 # ------------------
 

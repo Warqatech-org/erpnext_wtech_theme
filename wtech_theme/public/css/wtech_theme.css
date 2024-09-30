@@ -3,9 +3,9 @@
 	--main-color: #bf364d;
 	/* Changed primary color */
 	--second-color: #d06c80;
-	--second-color-dark: #6a3a45;
+	--second-color-dark: #751525;
 	/* Complementary shade */
-	--third-color: #a6466c;
+	--third-color: #b01c34;
 	/* Complementary shade */
 	--widget-bg: #f8f8f8;
 	/* Light white background */
@@ -92,11 +92,11 @@ h6.uppercase {
 	border: none !important;
 }
 
-[data-theme="light"] .navbar-nav>li>a {
+[data-theme="light"] .navbar-nav > li > a {
 	color: #fff !important;
 }
 
-[data-theme="light"] .navbar-nav>li>a:hover {
+[data-theme="light"] .navbar-nav > li > a:hover {
 	color: #ddd !important;
 }
 
@@ -145,21 +145,21 @@ h6.uppercase {
 }
 
 /* Dropdowns */
-[data-theme="light"] .dropdown-menu>li>a {
+[data-theme="light"] .dropdown-menu > li > a {
 	font-size: 13px;
 	color: #666;
 	font-weight: 500;
 }
 
-[data-theme="light"] .awesomplete>ul>li[aria-selected="true"] {
+[data-theme="light"] .awesomplete > ul > li[aria-selected="true"] {
 	background-color: transparent;
 }
 
-[data-theme="light"] .awesomplete>ul>li:hover {
+[data-theme="light"] .awesomplete > ul > li:hover {
 	background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 
-[data-theme="light"] .awesomplete>ul>li:hover a {
+[data-theme="light"] .awesomplete > ul > li:hover a {
 	color: #fff;
 }
 
@@ -204,7 +204,7 @@ h6.uppercase {
 [data-theme="light"] .btn-default.focus,
 [data-theme="light"] .btn-default:active,
 [data-theme="light"] .btn-default.active,
-[data-theme="light"] .open>.dropdown-toggle.btn-default {
+[data-theme="light"] .open > .dropdown-toggle.btn-default {
 	background-color: var(--third-color) !important;
 	color: #fff !important;
 }
@@ -220,7 +220,7 @@ h6.uppercase {
 [data-theme="light"] .btn-primary.focus,
 [data-theme="light"] .btn-primary:active,
 [data-theme="light"] .btn-primary.active,
-[data-theme="light"] .open>.dropdown-toggle.btn-primary {
+[data-theme="light"] .open > .dropdown-toggle.btn-primary {
 	background-color: var(--main-color) !important;
 	border-color: var(--main-color) !important;
 }
@@ -230,7 +230,7 @@ h6.uppercase {
 [data-theme="light"] .btn-secondary.focus,
 [data-theme="light"] .btn-secondary:active,
 [data-theme="light"] .btn-secondary.active,
-[data-theme="light"] .open>.dropdown-toggle.btn-secondary {
+[data-theme="light"] .open > .dropdown-toggle.btn-secondary {
 	background-color: var(--third-color);
 	color: #fff;
 }
@@ -383,11 +383,11 @@ h6.uppercase {
 	border: none !important;
 }
 
-[data-theme="dark"] .navbar-nav>li>a {
+[data-theme="dark"] .navbar-nav > li > a {
 	color: var(--text-color-light) !important;
 }
 
-[data-theme="dark"] .navbar-nav>li>a:hover {
+[data-theme="dark"] .navbar-nav > li > a:hover {
 	color: #ddd !important;
 }
 
@@ -436,21 +436,21 @@ h6.uppercase {
 }
 
 /* Dropdowns */
-[data-theme="dark"] .dropdown-menu>li>a {
+[data-theme="dark"] .dropdown-menu > li > a {
 	font-size: 13px;
 	color: var(--text-color-dark);
 	font-weight: 500;
 }
 
-[data-theme="dark"] .awesomplete>ul>li[aria-selected="true"] {
+[data-theme="dark"] .awesomplete > ul > li[aria-selected="true"] {
 	background-color: transparent;
 }
 
-[data-theme="dark"] .awesomplete>ul>li:hover {
+[data-theme="dark"] .awesomplete > ul > li:hover {
 	background: linear-gradient(to right, var(--main-color), var(--second-color-dark));
 }
 
-[data-theme="dark"] .awesomplete>ul>li:hover a {
+[data-theme="dark"] .awesomplete > ul > li:hover a {
 	color: var(--text-color-light);
 }
 
@@ -489,7 +489,7 @@ h6.uppercase {
 [data-theme="dark"] .btn-default.focus,
 [data-theme="dark"] .btn-default:active,
 [data-theme="dark"] .btn-default.active,
-[data-theme="dark"] .open>.dropdown-toggle.btn-default {
+[data-theme="dark"] .open > .dropdown-toggle.btn-default {
 	background-color: var(--third-color) !important;
 	color: var(--text-color-light) !important;
 }
@@ -499,7 +499,7 @@ h6.uppercase {
 [data-theme="dark"] .btn-primary.focus,
 [data-theme="dark"] .btn-primary:active,
 [data-theme="dark"] .btn-primary.active,
-[data-theme="dark"] .open>.dropdown-toggle.btn-primary {
+[data-theme="dark"] .open > .dropdown-toggle.btn-primary {
 	background-color: var(--main-color) !important;
 	border-color: var(--main-color) !important;
 }
@@ -573,3 +573,14 @@ h6.uppercase {
 [data-theme="dark"] #page-Workspaces .page-head {
 	background: var(--widget-bg-dark);
 }
+
+[data-theme="dark"] .nav-link:hover,
+[data-theme="light"] .nav-link:hover {
+	background-color: transparent;
+}
+
+/* [data-theme="dark"] .app-logo, */
+/* [data-theme="light"] .app-logo { */
+/* 	background-image: url("/assets/wtech_theme/img/favicon.png") !important; */
+/* 	background: url("/assets/wtech_theme/img/favicon.png") !important; */
+/* } */

@@ -29,3 +29,8 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher
 		});
 	}
 };
+
+// custom_app.js in your custom app
+frappe.ui.toolbar.Toolbar.prototype.get_app_logo_html = function () {
+	return `<img class="erpnext-logo" src="/assets/wtech_theme/img/favicon.png" />`;
+};
