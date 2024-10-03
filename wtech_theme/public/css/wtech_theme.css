@@ -579,8 +579,18 @@ h6.uppercase {
 	background-color: transparent;
 }
 
-/* [data-theme="dark"] .app-logo, */
-/* [data-theme="light"] .app-logo { */
-/* 	background-image: url("/assets/wtech_theme/img/favicon.png") !important; */
-/* 	background: url("/assets/wtech_theme/img/favicon.png") !important; */
-/* } */
+[data-theme="light"] .app-logo {
+	background: var(--widget-bg);
+	width: 48px !important;
+	height: auto !important;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+[data-theme="dark"] .app-logo {
+	background: var(--widget-bg-dark);
+	width: 48px !important;
+	height: auto !important;
+	padding: 5px;
+	border-radius: 5px;
+}
