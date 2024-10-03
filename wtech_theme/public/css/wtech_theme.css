@@ -286,7 +286,7 @@ h6.uppercase {
 [data-theme="light"] .indicator-pill.gray,
 [data-theme="light"] .indicator-pill-right.gray,
 [data-theme="light"] .indicator-pill-round.gray {
-	background: var(--third-color);
+	background: var(--second-color);
 	color: #fff;
 }
 
